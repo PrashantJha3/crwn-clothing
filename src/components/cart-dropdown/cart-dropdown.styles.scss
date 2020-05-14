@@ -9,7 +9,8 @@
   background-color: white;
   top: 80px;
   right: 0px;
-  z-index: 5px;
+  overflow: scroll;
+  z-index: 5;
 
   .cart-items {
     height: 240px;
