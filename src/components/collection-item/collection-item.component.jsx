@@ -6,7 +6,7 @@ import CustomButton from "../custom-button/custom-button.component";
 import { addItem } from "../../redux/cart/cart.action";
 
 import "./collection-item.styles.scss";
-import CollectionPreview from "../collection-preview/collection-preview.component";
+//import CollectionPreview from "../collection-preview/collection-preview.component";
 
 const CollectionItem = ({ item, addItem }) => {
   const { name, price, imageUrl } = item;
